@@ -26,6 +26,5 @@ const connect = function () {   // main function that handles the connection
 };
 
 module.exports = {
-  net,
   connect,
 };
