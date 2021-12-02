@@ -20,6 +20,18 @@ const handleUserInput = function (key) {
     console.log("Move: left")
     connection.write("Move: left");
   }
+  if (key === "q") {
+    console.log("Gotcha!!!")
+    connection.write("Say: Gotcha!!!");
+  }
+  if (key === "e") {
+    console.log("Snake is down!!!")
+    connection.write("Say: Snake is down!!!");
+  }
+  if (key === "f") {
+    console.log("Watch out!!")
+    connection.write("Say: Watch out!!");
+  }
 };
 
 const setupInput = function (conn) {  //function that handles user inputs
